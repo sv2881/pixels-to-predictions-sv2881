@@ -1,6 +1,6 @@
 # Pixels to Predictions: QLoRA Fine-Tuning of SmolVLM for Multimodal Science Multiple-Choice Reasoning
 
-This repository contains the final clean notebook and report for the NYU DL Vision Challenge submission by Siva Srinivas Venigalla (`sv2881`).
+This repository contains the final clean notebook for the NYU DL Vision Challenge submission by Siva Srinivas Venigalla (`sv2881`).
 
 ## Project Summary
 
@@ -26,9 +26,7 @@ pixels-to-predictions-sv2881/
 ├── submissions/
 ├── results/
 │   └── ablation_results.csv
-├── figures/
-└── report/
-    └── final_report.pdf
+└── figures/
 ```
 
 ## Reproducible Rerun Steps
@@ -68,6 +66,5 @@ The clean notebook is written for Google Colab and looks for data under paths su
 
 ## Links
 
-- GitHub repository: pending
+- GitHub repository: https://github.com/sv2881/pixels-to-predictions-sv2881
 - Model weights / LoRA adapter: add your adapter link here
-
