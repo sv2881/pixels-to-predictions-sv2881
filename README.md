@@ -23,10 +23,8 @@ pixels-to-predictions-sv2881/
 ├── requirements.txt
 ├── notebooks/
 │   └── sv2881_pixels_to_predictions_final_clean.ipynb
-├── submissions/
 ├── results/
 │   └── ablation_results.csv
-└── figures/
 ```
 
 ## Reproducible Rerun Steps
