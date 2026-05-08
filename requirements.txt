@@ -1,0 +1,15 @@
+transformers==4.57.1
+tokenizers==0.22.1
+huggingface_hub==0.36.0
+accelerate==1.11.0
+peft==0.13.2
+bitsandbytes
+datasets
+pillow
+tqdm
+matplotlib
+seaborn
+pandas
+numpy
+torch
+

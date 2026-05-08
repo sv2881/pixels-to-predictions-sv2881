@@ -1,0 +1,8 @@
+experiment,description,public_score,what_changed,observation
+Frozen SmolVLM baseline,No fine-tuning; likelihood scoring only,0.58551,Base model only,Useful zero-shot ability but weak adaptation to the contest format
+QLoRA epoch 2,"4-bit SmolVLM + LoRA r=8; train+val",0.80080,Supervised LoRA adaptation,Large gain from task-specific fine-tuning
+Continued epoch 3,"Reload adapter, fix gradient issue, continue training",0.85510,Stable continued fine-tuning,Major improvement after fixing training stability
+Cautious epoch 4,Lower-LR continued training,0.86317,Smaller LR continuation,Best final result
+Epoch 5 partial,Extra low-LR partial fine-tuning,0.86317,Additional small update,No measurable leaderboard improvement
+Prompt ensemble / text fallback,Prompt variants and TF-IDF fallback,,Inference-time blending,Weaker prompt variants reduced validation performance
+
